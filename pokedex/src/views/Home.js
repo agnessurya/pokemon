@@ -18,7 +18,6 @@ function Home(){
         <div>
         <Container>
             <Row>
-    
                 {
                     pokemons.map((pokemon)=>{
                       return  <PokemonCard key={pokemon.id} pokemon={pokemon}></PokemonCard>
